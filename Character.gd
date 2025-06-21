@@ -15,5 +15,3 @@ func _physics_process(delta):
 	Movedir = Vector2(int(Input.is_action_pressed("Right"))-int(Input.is_action_pressed("Left")),int(Input.is_action_pressed("Down"))-int(Input.is_action_pressed("Up")))
 	velocity = movespeed*Movedir.normalized()
 	move_and_slide()
-
-

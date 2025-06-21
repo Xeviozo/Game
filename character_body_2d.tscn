@@ -8,3 +8,9 @@ script = ExtResource("1_gbi0q")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("2_kuqjy")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
